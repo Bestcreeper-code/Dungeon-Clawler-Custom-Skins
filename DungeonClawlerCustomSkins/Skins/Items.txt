@@ -1,0 +1,265 @@
+SirBunalotLuckyPaw
+SirBunalotPerk
+SirBunalotDefaultSkinItem
+SirBunalotSupporterSkinItem
+SirKnightalotSkinItem
+TestSlimeSkinItem
+ScrappyLuckyPaw
+ScrappyPerk
+ScrappyDefaultSkinItem
+ScrappyOberkomissarSkinItem
+ScrappySwoleySkinItem
+FelinaLuckyPaw
+FelinaPerk
+FelinaDefaultSkinItem
+FelinaSharkSkinItem
+FelinaWickedSkinItem
+ClawculaLuckyPaw
+ClawculaPerk
+ClawculaDefaultSkinItem
+ClawculaReaperSkinItem
+DollyLuckyPaw
+DollyPerk
+DollyDefaultSkinItem
+DollyJokefishSkinItem
+BennyLuckyPaw
+BennyPerk
+BennyDefaultSkinItem
+DraegastBeaverSkinItem
+EngineerBeaverSkinItem
+BurnieLuckyPaw
+BurniePerk
+SquiddyLuckyPaw
+SquiddyPerk
+GregPerk
+GregsLuckyPaw
+GregDefaultSkinItem
+BlitzGregSkinItem
+ChristmasGregSkinItem
+AnneBunnyLuckyPaw
+AnneBunnyPerk
+AnneBunnyDefaultSkinItem
+ShipwreckAnneSkinItem
+HareLeQuinnLuckyPaw
+HareLeQuinnPerk
+BunnerChiefLuckyPaw
+BunnerChiefPerk
+BunnerChiefDefaultSkinItem
+EasterBunnerSkinItem
+CuddlinaLuckyPaw
+CuddlinaPerk
+CuddlinaDefaultSkinItem
+KirakiraDollSkinItem
+ToxicarlLuckyPaw
+ToxicarlPerk
+MrBoneyLuckyPaw
+MrBoneyPerk
+AstrobunPerk
+AstronbunLuckyPaw
+Big Shield
+Body Armor
+Forest Spirit
+Gauntlet
+Helmet
+Holy Shield
+Metal Shield
+Morning Star
+Plastic Shield
+Small Shield
+Tower Shield
+Vitamin Pill
+Warhammer
+Wood Oil
+Brass Knuckle
+Fortune Cookie
+Hand Mirror
+Pearl
+Spikey Shield
+AntiGravityClawActivator
+HarpoonClawActivator
+MagnetClawActivator
+TentacleClawActivator
+Creditcard
+Gold Dagger
+Hand of Midas
+Piggy Bank
+Eyepatch
+Sickle
+Battle Axe
+Dagger
+Dark Sword
+Double Bladed Sword
+Garden Shears
+GreatSword
+Lucky Stick
+Marble
+Plastic Knife
+Recycling Bin
+Small Sword
+Syringe
+Ticking Bomb
+Whetstone
+Big Honeyball
+Glass Shard
+HauntedSpike
+Meli-Bomb
+PoisonSpore
+Spike
+Ice Pack
+Icicle
+Liquid Nitrogen Flask
+Popsicle
+Snow Globe
+Snow Shovel
+Snowball
+Winter Gloves
+Healing Flask
+Magic Wand
+Teddy
+Thermometer
+Catbox
+Antidote
+Holy Water
+Leech
+Poison Dagger
+Poison Flask
+Poison Grenade
+Serrated Blade
+Shuriken
+Smog Bomb
+Toxic Bulwark
+Cactus
+Stressball Spikes
+Stressball
+Glass Cleaner
+Heat Gun
+Honey Ball
+Magnet
+Toxicarl's Flask
+Amulet of Strength
+Energy Drink
+Paperclip
+Ring of Strength
+Strength Potion
+Wooden Bracelet
+Battery
+Chocolate Bathbomb
+Frosty Bathbomb
+Lava Bathbomb
+Piranha
+Poison Bathbomb
+Sponge
+TreasureChest
+TreasureOpen
+Water Balloon
+Water Bottle
+Waterpistol
+Waterpistol_HotChocolate
+Waterpistol_Ice
+Waterpistol_Ink
+Waterpistol_Lava
+Waterpistol_Poison
+Waterpistol_Water
+EmptyPawItem
+Burning Fluff
+Coin Fluff
+Fluff
+Ice Fluff
+Ink Fluff
+Marshmallow Fluff
+Poison Fluff
+1_DealDamage_Card
+3_Block_Card
+4_Strength_Card
+5_Healing_Card
+6_CriticalHit_Card
+7_Poison_Card
+8_Coins_Card
+9_Pets_Card
+10_Water_Card
+13_Selfdamage_Card
+15_Fluff_Card
+16_Frost_Card
+17_Spikes_Card
+18_Dodge_Card
+HealingPotion
+LargeChristmasPresent
+MediumChristmasPresent
+SmallChristmasPresent
+EasterCarrot
+EasterChocolateBunny
+EasterEgg
+Mystery_HareLeQuinnKey 1
+Mystery_HareLeQuinnKey 2
+Mystery_HareLeQuinnKey 3
+Mystery_HareLeQuinnKey 4
+Mystery_HareLeQuinnKey 5
+Mystery_HareLeQuinnKey 6
+Mystery_HareLeQuinnKey 7
+Mystery_HareLeQuinnKey 8
+Mystery_HareLeQuinnKey 9
+Mystery_HareLeQuinnKey 10
+Mystery_HareLeQuinnKey 11
+Mystery_HareLeQuinnKey 12
+Mystery_HareLeQuinnKey 13
+Mystery_HareLeQuinnKey 14
+Mystery_HareLeQuinnKey 15
+Mystery_GoldenPiranah
+Mystery_HauntedItemChest
+Mystery_HauntedSpike
+Mystery_ItemChest
+Mystery_ItemChestRare
+Mystery_PerkSatchel
+Mystery_Piranah
+Mystery_PiranahRareShipwreckAnne
+Mystery_Spike
+Blockmaster
+Bulwark
+Deflation
+Hoarder
+Picky
+Pin Cushion
+Alchemist Coupon
+Bargain
+Blacksmith Coupon
+Golden Armor
+Reroll Coupon
+Savings Account
+Shredder Coupon
+Thief
+Critical Strength
+Deep Cuts
+Enraged
+Hard Hits
+Junk Jet
+Catsuit
+Dodgy
+Cuddly
+Fluffy
+Swamp
+Global Warming
+Permafrost
+Critical Healing
+Giantism
+Resilient
+VampireFangs
+Catnip
+ContagiousVenom
+Dirty Money
+Noxious Cape
+PoisonWeapons
+Suspicious Green Rod
+Vaccine
+Ghostly Connection
+Golden Tentacle
+Greedy
+Lucky
+MagicMirror
+Magnetism
+Weaklings
+Hedgehog
+Porcupine
+Spikes
+Berserker
+Minimalist
+NaturalStrength

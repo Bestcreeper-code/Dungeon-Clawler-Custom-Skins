@@ -1,0 +1,5 @@
+Name: Baby BunAlot
+Description: Baby Bunalot is not able to win in the dungeon without some assistance yet.
+PerkDesc: You will obtain 45 free reroll coupons!
+Items: [Dagger:10;Teddy:2;Healing Flask:2]
+Perks: [Reroll Coupon:45]

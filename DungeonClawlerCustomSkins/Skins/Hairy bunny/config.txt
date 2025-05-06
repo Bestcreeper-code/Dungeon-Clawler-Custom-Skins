@@ -1,0 +1,5 @@
+Name: Hairy Bunny
+Description: Hairy Bunny has spend most his time in the alchemists lab in the dungeon researching and tinkering.
+PerkDesc: 10 bonus Alchemist coupons!
+Items: [Dagger:7;Small Shield:7;Antidote:1;Healing Flask:1;Strength Potion:1;Energy Drink:1]
+Perks: [Alchemist Coupon:10]
