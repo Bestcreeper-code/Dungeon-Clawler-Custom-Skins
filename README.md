@@ -21,7 +21,7 @@ A custom mod for **Dungeon Clawler** built using the BepInEx framework.
 
 ### 2. Install this Mod
 
-- Download the zip and extract it in the `BepInEx/plugins/` folder.
+- Download the zip, extract it and move the folder containing the dll and `Skins` folder in the `BepInEx/plugins/` folder.
 - *(optional)*Create/modify skins (check the md file in the `Skins` folder) 
 
 ### 3. Launch the Game
