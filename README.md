@@ -1,4 +1,4 @@
-# 🎮 ItemsMakeFast
+# 🎮 Dungeon Clawler Custom Skins 
 
 A custom mod for **Dungeon Clawler** built using the BepInEx framework.
 
