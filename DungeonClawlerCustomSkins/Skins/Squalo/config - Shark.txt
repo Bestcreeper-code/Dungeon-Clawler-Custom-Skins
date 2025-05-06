@@ -1,5 +1,5 @@
 Name: Loanly Shark
 Description: Sadly his only way of getting in touch with people is by offering them ridiculous loans in trade for body parts. Not sure if this is scary or just sad.
 PerkDesc: Dirty Money and Thief!
-Items: [Piggy Bank:5;Shield:5;Spike:5;Big Shield:1;Hand of Midas:1;Gold Dagger:1;Creditcard:1]
+Items: [Piggy Bank:5;Small Shield:5;Spike:5;Big Shield:1;Hand of Midas:1;Gold Dagger:1;Creditcard:1]
 Perks: [Dirty Money:1;Thief:1]

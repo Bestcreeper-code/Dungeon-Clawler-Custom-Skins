@@ -1,10 +1,10 @@
 ### **Skin Folder** Structure
 *Skin_name (folder name that gets displayed in skin selector)*  
 ├── *Skin_name* **config**.txt  
-├── *Skin_name* **attack**.png  (Size: You set this)  
-├── *Skin_name* **buff**.png  (Size: You set this)  
-├── *Skin_name* **hit**.png  (Size: You set this)  
-└── *Skin_name* **idle**.png  (Size: You set this)
+├── *Skin_name* **attack**.png  (Size: depends on image size)  
+├── *Skin_name* **buff**.png  (Size: depends on image size)  
+├── *Skin_name* **hit**.png  (Size: depends on image size)  
+└── *Skin_name* **idle**.png  (Size: depends on image size)
 
 (bold = required)
 (*Skin_name* = Your Skin Name)
