@@ -39,3 +39,7 @@ A custom mod for **Dungeon Clawler** built using the BepInEx framework.
 
 ## 🔧 Configuration
 - Check the heck the md file in `/Skins` for skin structure
+
+
+##Credits:
+- @Tjatja - Art &testing
