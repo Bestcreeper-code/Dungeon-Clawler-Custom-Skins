@@ -4,7 +4,7 @@ A custom mod for **Dungeon Clawler** built using the BepInEx framework.
 
 ---
 
-## 📦 requirements
+## 📦 Requirements
 
 - [BepInEx (latest version) ](https://github.com/BepInEx/BepInEx/releases)
 - [Dungeon Clawler](https://store.steampowered.com/app/2356780/Dungeon_Clawler/) (of course)
