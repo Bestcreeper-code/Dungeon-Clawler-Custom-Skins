@@ -9,7 +9,7 @@
 (bold = required)
 (*Skin_name* = Your Skin Name)
 
-**Important: PNG file sizes are set by you.**
+**Important: PNG file sizes are set by you. (Images should be at least 450x450 pixels for best results.)**
 ### **config.txt** Structure
 
 Name: *Skin_name*  
