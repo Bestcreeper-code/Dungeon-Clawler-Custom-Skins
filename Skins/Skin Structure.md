@@ -9,7 +9,7 @@
 (bold = required)
 (*Skin_name* = Your Skin Name)
 
-**Important: PNG file sizes are determined by you. For optimal results, use images that are at least 450x450 pixels.**
+**Important: PNG file sizes are set by you.**
 ### **config.txt** Structure
 
 Name: *Skin_name*  
@@ -19,3 +19,4 @@ Items: [*Item_1* **:** *Amount_1* **;** *Item_2* **:** *Amount_2* **;** *Item_3*
 Perks: [*Perk_1* **:** *Amount_1* **;** *Perk_2* **:** *Amount_2* **;** ...]
 
 **Important: Items and Perks are case sensitive (look in the provided Items.txt for the full list of items and perks).**
+**Important: you can add a '&' after an item name to change it's material (Itemname&Material:Amount).**

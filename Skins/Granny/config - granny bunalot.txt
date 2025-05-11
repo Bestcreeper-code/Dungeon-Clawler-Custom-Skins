@@ -3,3 +3,4 @@ Description: Granny Bunalot made herself at home in the dungeon, a long long tim
 PerkDesc: You will obtain all Granny room bonusses!
 Items: [Small Shield:5;Dagger:5;Piggy Bank:5;Healing Flask:5;Hand of Midas:1]
 Perks: [Greedy:2;Golden Tentacle:1]
+BaseHp: 32
