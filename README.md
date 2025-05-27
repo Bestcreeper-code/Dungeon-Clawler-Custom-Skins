@@ -39,6 +39,7 @@ A custom mod for **Dungeon Clawler** built using the BepInEx framework.
 
 ## 🔧 Configuration
 - Check the md file in `/Skins` for skin structure
+- You can change the size multiplier(SizeMult: __*value*__)in the config.cfg(open in text editor)
 
 ### Skins List(Dungeon Clawler discord) [Here](https://discord.com/channels/1214958125753311262/1369586721846595668)
 ## Credits:
