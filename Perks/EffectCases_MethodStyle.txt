@@ -1,0 +1,310 @@
+-----Item only:--------
+UpgradeDescription:String
+Material:String
+Cooldown:int
+NonDroppable:bool
+Ethereal:bool
+Values:[varname:value]
+UpgradeValues:[varname:value]
+
+-----ability args:------
+Ability:ability types
+TargetFriends:Bool
+ExcludeSelf:Bool
+Target:TargetType
+Trigger:triggerType
+
+-----ability alternatives:------
+SpecialEffects:[values]
+Values:[varname:value]
+
+-----special effects:-----
+None: XXXXX
+UseFirstItemTwice: XXXXX
+IncreaseMaxHp: MaxHpIncrease
+DecreaseEnemyHp: EnemyHpDecreasePercentage
+Unused: XXXXX
+IncreaseCritDamage: CritDamageIncrease
+BlockNotReset: XXXXX
+ChangeItemCapacity: CapacityIncrease
+ChangeFluffAmount: FluffIncrease
+UseItemTwiceIfAlone: XXXXX
+MinimumWaterLevel: MinimumWaterLevel
+RetainBlock: RetainedBlockAmount
+IncreaseMagnetism: MagnetismIncrease
+IncreaseCritChance: CritChanceIncrease
+ReducePrices: PriceReduction
+IncreaseDamageMultiplier: DamageMultiplier
+ConsumeCollectedItems: XXXXX
+ClawTimer: ClawTimer
+IncreaseCurrencyGain: CurrencyMultiplier
+IncreasePetDamageMultiplier: PetDamageMultiplier
+IncreaseBlockMultiplier: BlockMultiplier
+IncreaseRewardClawCount: RewardClawIncrease
+IncreasePerkChoiceCount: PerkChoiceCountIncrease
+SpecialRewardRoomClaw: XXXXX
+ReplaceClaw: XXXXX
+RerollCoupon: XXXXX
+ShredderCoupon: XXXXX
+UpgradeCoupon: XXXXX
+AlchemistCoupon: XXXXX
+RandomizedClaws: XXXXX
+AutomaticallyUpgradeItems: UpgradeChance
+RetainDodge: RetainedDodgeAmount
+IncreasePoisonStacks: IncreasePoisonAmount
+IncreaseEtherealStayChance: IncreaseEtherealStayChance
+CriticalHealing: XXXXX
+DuplicateLastItem: XXXXX
+ModifiedGambling: XXXXX
+FrostIncreasesDamage: FrostDamageIncrease
+
+-----ability types:-----
+DamageSetting(
+    float/CalculatedValue DamageAmount,
+    bool CanCrit,
+    bool DontTriggerOnAttackEffects,
+    bool IgnoreArmor,
+    bool IgnoreAttackDamageModifiers,
+    bool IgnoreDamageModifiers,
+    float/CalculatedValue BaseCritChance
+)
+
+ModifyDamageMult(
+    Amount:Value
+)
+
+HealSetting(
+    float/CalculatedValue HealAmount
+)
+
+IncreaseBlockSetting(
+    float/CalculatedValue BlockAmount,
+    bool Multiply
+)
+
+IncreaseStrengthSetting(
+    float/CalculatedValue StrengthAmount,
+    bool Multiply
+)
+
+ApplyStatusEffectSetting(
+    float/CalculatedValue AddAmount,
+    bool Multiply,
+    string StatusEffect,
+    bool ReplaceExistingStacks,
+    bool Unavoidable
+)
+
+AddItemSetting(
+    float/CalculatedValue ItemAmount,
+    bool TriggerInMysteryRooms,
+    string Item,
+    bool Upgraded
+)
+
+SetWaterLevel(
+    float/CalculatedValue Level
+)
+
+AddCurrency(
+    float/CalculatedValue Amount,
+    string Currency,
+    bool DontTriggerCoinsAddedEvent
+)
+
+RemoveCurrency(
+    float/CalculatedValue Amount,
+    string Currency
+)
+
+ReplaceClaw(
+    string Claw
+)
+
+AddClawSetting(
+    string Claw
+)
+
+ModifyBaseValue(
+    float/CalculatedValue ChangeAmount,
+    string BaseValue
+    bool Overwrite,
+    bool Multiply
+)
+
+ReplaceItemAction(
+    float/CalculatedValue ItemCount,
+    string ReplacementItem,
+    string TargetItem
+)
+
+SpawnPetAction(
+    string Pet,
+    bool IsPermanent
+)
+
+SpawnEnemyAction(
+    List<string> PossibleEnemies,
+    bool HasStartEffect,
+    float/CalculatedValue BuffAmount,
+    string StartBuff
+)
+
+KillAction()                
+
+____________________________________________________________________________________
+
+-----functions:-----
+
+Add{Value firstNb, Value secondNb}
+Clamp{Value  ValueToClamp, Value  Min, Value  Max}
+ClawMachineStat{string #Claw_Machine_Stat}
+CollectedItemCount{string itemName}
+CombatantStat{string #Combatant_Stat}
+CountOfItemsInDeck{}
+CurrencyAmount{}
+Divide{Value firstNb, Value secondNb}
+EnemyCount{string StatusEffect_Name, bool OnlyCountEnemiesWithEffect}
+FighterBaseValue{string ValueName}
+Floor{Value  Value}
+IfElse{string #Comparison_Types, Value  Value, Value  CompareValue, Value  ValueWhenTrue, Value  ValueWhenFAlse}
+Item{string ItemName}
+BaseValue{string ValueName}
+ItemCount{string ItemName}
+//PerkCount{string PerkName}
+DamageMult{}
+LastIncomingAbilityStats{string #Last_Incoming_Ability_Stats}
+LastPickedItem{}
+Multiply{Value firstNb, Value secondNb}
+Number{float Value}
+PlayerStat{string #Player_Stats}
+RandomNumber{Value  Max, Value  Min}
+StatusEffectCount{string StatusEffect_Name, bool DifferentTarget}
+Subtract{Value firstNb, Value secondNb}
+
+____________________________________________________________________________________
+
+-----Claws:-----
+0 Gravity claw
+1 Harpoon claw
+2 Magnet claw
+3 Default claw
+4 Tentacle claw
+----
+
+____________________________________________________________________________________
+
+-----Claw_Machine_Stat:-----
+NumberOfItemsThisTurn  
+WaterLevel  
+CollectedFluffThisTurn  
+----
+____________________________________________________________________________________
+
+-----Combatant_Stats:-----
+Block  
+Strength  
+MaxHealth  
+CurrentHealth  
+----
+____________________________________________________________________________________
+
+-----Player_Stats:-----
+MaxRetainedBlock  
+MaxRetainedDodge  
+CriticalHitChance  
+CriticalHitDamage  
+PetDamage  
+----
+____________________________________________________________________________________
+
+-----Last_Incoming_Ability_Stats:-----
+TotalIncomingDamage  
+HealthDamage  
+BlockedDamage  
+IncomingHeal  
+BlockIncrease  
+StrengthIncrease  
+CriticalHealthDamage  
+TotalOutgoingDamage  
+OutgoingCriticalHealthDamage  
+OutgoingHealthDamage  
+OutgoingHeal  
+TotalDodgedDamage  
+CoinsAdded  
+CoinsRemoved  
+CoinsCollected  
+----
+____________________________________________________________________________________
+
+-----Comparison_Types:-----
+LessThan  
+GreaterThan  
+EqualTo  
+NotEqualTo  
+LessThanOrEqualTo  
+GreaterThanOrEqualTo  
+----
+____________________________________________________________________________________
+        
+-----Targets:-----
+Self,
+FirstTarget,
+LastTarget,
+AllTargets,
+Attacker,
+RandomTarget,
+Fighter,
+PreviousTarget,
+Everyone
+----
+____________________________________________________________________________________
+
+-----Triggers:-----
+OnTurnStart,
+OnTurnEnd,
+OnGettingAttacked,
+OnAttack,
+OnAbilityUse,
+OnStatusEffectRemoved,
+OnGettingHealed,
+OnBlock,
+OnDeath,
+OnStrengthIncrease,
+OnStrengthDecrease,
+OnBlockIncrease,
+OnBlockDecrease,
+OnCombatStart,
+OnCombatEnd,
+OnClawMachineFill,
+OnDealingHealthDamage,
+OnReceivingHealthDamage,
+OnFloorChange,
+OnStatusEffectAdded,
+OnStatusEffectIncreased,
+OnItemsDropped,
+OnFirstCollectedItemUsed,
+OnItemAddedToClawMachine,
+OnAttackDodged,
+OnRoomEnter,
+OnPetSpawn,
+OnPlayerGettingAttacked,
+OnPetDespawn,
+OnDealingSelfDamage,
+OnPlayerConsumedItem,
+OnLiquidFilledIntoMachine,
+OnSingleItemCollected,
+OnEnemyDespawn,
+OnEnemySpawn,
+OnPetGettingAttacked,
+OnCoinsAdded,
+OnCoinsRemoved,
+OnFirstTurnStarted,
+AfterTurnStart,
+OnFluffCollected,
+AfterTurnEnd,
+OnCriticalAttack,
+OnSuccessfulAttack,
+OnEnemyDiedFromPoison
+----
+____________________________________________________________________________________

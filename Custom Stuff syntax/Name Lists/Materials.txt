@@ -1,0 +1,6 @@
+Cloth
+Glass
+Ice
+Metal
+Plastic
+Wood

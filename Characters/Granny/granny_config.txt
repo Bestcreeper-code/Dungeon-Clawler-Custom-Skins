@@ -1,0 +1,5 @@
+Name: Granny Bunalot
+Description: Granny Bunalot made herself at home in the dungeon, a long long time ago. She loves it when her grandchildren visit!
+PerkDesc: Every room will feel like a granny room!
+Items: [Small Shield:5;Dagger:5]
+Sizemult:1

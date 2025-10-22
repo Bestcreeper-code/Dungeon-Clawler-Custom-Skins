@@ -1,0 +1,7 @@
+Name:Gold Gain
+Description:Gives a 5% gold gain
+Rarity:Rare
+Stackamount:20
+Sizemult:0.35
+Tags:[Buffs]
+SpecialEffects:[IncreaseCurrencyGain:0.05]

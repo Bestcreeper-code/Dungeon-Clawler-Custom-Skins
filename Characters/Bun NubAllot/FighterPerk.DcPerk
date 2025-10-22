@@ -1,0 +1,6 @@
+Sizemult:0.35
+Ability:ApplyStatusEffectSetting(AddAmount:1,StatusEffect:Coins,Unavoidable:true);Target:Self;Trigger:OnFluffCollected
+Ability:ModifyDamageMult(Value:Subtract{DamageMult{},0.01});Target:Self;Trigger:OnFluffCollected
+Ability:DamageSetting(DamageAmount:IfElse{GreaterThan,StatusEffectCount{Coins},LastIncomingAbilityStats{TotalIncomingDamage},LastIncomingAbilityStats{TotalIncomingDamage},StatusEffectCount{Coins}},CanCrit:false,IgnoreAttackDamageModifiers:true,IgnoreDamageModifiers:true);Target:Attacker;Trigger:OnPlayerGettingAttacked
+Ability:ApplyStatusEffectSetting(AddAmount:IfElse{GreaterThan,DamageMult{},LastIncomingAbilityStats{TotalIncomingDamage},Subtract{StatusEffectCount{Coins},LastIncomingAbilityStats{TotalIncomingDamage}},Number{1}},StatusEffect:Coins,ReplaceExistingStacks:true,Unavoidable:true);Target:Self;Trigger:OnGettingAttacked
+Ability:ModifyDamageMult(Value:Add{DamageMult{},IfElse{GreaterThan,StatusEffectCount{Coins},LastIncomingAbilityStats{TotalIncomingDamage},LastIncomingAbilityStats{TotalIncomingDamage},StatusEffectCount{Coins}}});Target:Self;Trigger:OnGettingAttacked

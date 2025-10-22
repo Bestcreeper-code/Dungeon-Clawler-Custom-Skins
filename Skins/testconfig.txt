@@ -1,5 +1,5 @@
 Name: Baby BunAlot
 Description: hfgyregezughezrughcezihg
 PerkDesc: you have no option in difficulty, and will always play easy mode where there are no additional paws to be chosen. (sandbox mode)
-Items: [Antidote&Metal:2;Teddy:1]
+Items: [Antidote:2;Teddy:1]
 Perks: [Reroll Coupon:45]

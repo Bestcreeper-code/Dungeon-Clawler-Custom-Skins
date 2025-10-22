@@ -1,13 +1,13 @@
-# 🎮 Dungeon Clawler Custom Skins 
+# 🎮 Dungeon Clawler Custom Skins
 
-A custom mod for **Dungeon Clawler** built using the BepInEx framework.
+A custom mod for **Dungeon Clawler**, built using the BepInEx framework.
 
 ---
 
 ## 📦 Requirements
 
-- [BepInEx (latest version) ](https://github.com/BepInEx/BepInEx/releases) 
-- [Dungeon Clawler](https://store.steampowered.com/app/2356780/Dungeon_Clawler/) (of course)
+- [BepInEx (latest version)](https://github.com/BepInEx/BepInEx/releases)
+- [Dungeon Clawler](https://store.steampowered.com/app/2356780/Dungeon_Clawler/)
 
 ---
 
@@ -16,31 +16,33 @@ A custom mod for **Dungeon Clawler** built using the BepInEx framework.
 ### 1. Install BepInEx
 
 - Download the latest BepInEx release [here](https://github.com/BepInEx/BepInEx/releases).
-- Extract the contents into your game folder (where the main executable is).
-- Run the game once to generate required folders.
+- Extract the contents into your game folder (where the `.exe` is located).
+- Run the game once to generate the required folders.
 
-### 2. Install this Mod
+### 2. Install This Mod
 
-- Download the zip, extract it and move the folder containing the dll and `Skins` folder in the `BepInEx/plugins/` folder.
-- *(optional)*Create/modify skins (check the md file in the `Skins` folder) 
+- Download the mod ZIP.
+- Extract it and move the mod folder into `BepInEx/plugins/`.
 
 ### 3. Launch the Game
 
 - BepInEx will automatically load the mod on startup.
+- If the BepInEx console shows errors (red text), double-check your installation.
 
 ---
 
 ## 🧪 Features
 
-- Create custom skins and use them
-- Create custom decks for these skins
+- Custom **Skins**, **Items**, and **Perks**
 
 ---
 
 ## 🔧 Configuration
-- Check the md file in `/Skins` for skin structure
-- You can change the size multiplier(SizeMult: __*value*__)in the config.cfg(open in text editor)
 
-### Skins List(Dungeon Clawler discord) [Here](https://discord.com/channels/1214958125753311262/1369586721846595668)
-## Credits:
-- @Tjatja - Art &testing
+- Check the `/Skins`, `/Items`, and `/Characters` folders for syntax(.md files) and examples.
+
+---
+
+##  Credits
+
+- **@Tjatja** – Art & ~~Breaking~~ Testing

@@ -1,0 +1,6 @@
+Name:Golden Heals
+Description:Gain 1 <link="st:Health">Health</link> for each <link="cr:Coins">Coin</link> gained. (does not trigger with thief)
+Rarity:Rare
+Sizemult:0.35
+Tags:[Coins;Healing]
+Ability:HealSetting(HealAmount:LastIncomingAbilityStats{CoinsAdded});Target:Self;Trigger:OnCoinsAdded

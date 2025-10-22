@@ -1,0 +1,4 @@
+Sizemult:05
+Ability:ReplaceItemAction(ItemCount:Number{20},TargetItem:Fluff,ReplacementItem:Coin_Fluff);Target:Self;Trigger:OnFirstTurnStarted
+Ability:AddItemSetting(ItemAmount:Number{5},Item:Coin_Fluff);Target:Self;Trigger:OnAttack
+Ability:IncreaseStrengthSetting(StrengthAmount:LastIncomingAbilityStats{CoinsAdded});Target:Self;Trigger:OnCoinsAdded

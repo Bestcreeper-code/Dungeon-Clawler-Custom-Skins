@@ -1,0 +1,5 @@
+Name: SmithAlot
+Description: SmithAlot is a really crafty bunny! She can freely upgrade all her items all the time!
+PerkDesc: 10 bonus blacksmith coupons!
+Items: [Big Shield:5;Warhammer:5]
+SizeMult: 1

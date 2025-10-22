@@ -1,0 +1,6 @@
+SizeMult:1.8
+Name: Bun Nubalot
+Description: Bun Nubalot is a very fragile little bunny, luckily he has not gotten hit before!
+PerkDesc: Fluff gives 1 flat reflect (1 on 1 reflect per applied effect), when picked up. Fixed max health.
+Items: [Standing Mirror:1;Glass Cleaner:1;Teddy:2;Pearl:1;Dagger:1]
+BaseHp:1

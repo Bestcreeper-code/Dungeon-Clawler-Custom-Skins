@@ -1,0 +1,9 @@
+Name:Waterpistol
+Description:Fills up with liquid if submerged at the end of your turn, giving it a different effect depending on the liquid.<link="it:Waterpistol Fertilizer"></link>
+Rarity:Rare
+Material:Plastic
+Tags:[Water;Plastic]
+Ethereal:false
+Cooldown:0
+DontDrop:false
+Ability:Replace(ItemReplacement:Waterpistol_Fertilizer);Trigger:OnTurnStart;Conditions[Fertilizer];SpecialTrigger:OnTurnStart

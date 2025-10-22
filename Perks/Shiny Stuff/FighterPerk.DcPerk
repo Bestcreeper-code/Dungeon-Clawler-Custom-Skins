@@ -1,0 +1,7 @@
+Name:Shiny Stuff
+Description:Gives a 5% chance to upgrade the items in the machine.
+Rarity:Rare
+Stackamount:20
+Sizemult:0.35
+Tags:[Buffs]
+SpecialEffects:[AutomaticallyUpgradeItems:5]

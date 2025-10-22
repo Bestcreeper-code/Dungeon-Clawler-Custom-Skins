@@ -1,0 +1,6 @@
+Name: Stabby Croc
+Description: Stab stab stab, and when in doubt, stab some more, untill you can stab no more.
+PerkDesc: Strenght gained for damage dodged!
+Items: [Poison Dagger:7;Shuriken:1;Smog Bomb:1;Brass Knuckle:1]
+SizeMult: 1
+BaseHp:400

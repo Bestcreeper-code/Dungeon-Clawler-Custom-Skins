@@ -1,0 +1,105 @@
+Name:Double Dupe
+Description:Adds a 50% chance to add the same item back into the tank on use.
+Rarity:Epic
+Stackamount:1
+Sizemult:0.35
+Tags:[Buffs]
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Big Shield},Floor{RandomNumber{0,2}},0},Item:Big Shield);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Body Armor},Floor{RandomNumber{0,2}},0},Item:Body Armor);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Forest Spirit},Floor{RandomNumber{0,2}},0},Item:Forest Spirit);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Gauntlet},Floor{RandomNumber{0,2}},0},Item:Gauntlet);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Helmet},Floor{RandomNumber{0,2}},0},Item:Helmet);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Holy Shield},Floor{RandomNumber{0,2}},0},Item:Holy Shield);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Metal Shield},Floor{RandomNumber{0,2}},0},Item:Metal Shield);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Morning Star},Floor{RandomNumber{0,2}},0},Item:Morning Star);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Plastic Shield},Floor{RandomNumber{0,2}},0},Item:Plastic Shield);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Small Shield},Floor{RandomNumber{0,2}},0},Item:Small Shield);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Tower Shield},Floor{RandomNumber{0,2}},0},Item:Tower Shield);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Vitamin Pill},Floor{RandomNumber{0,2}},0},Item:Vitamin Pill);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Warhammer},Floor{RandomNumber{0,2}},0},Item:Warhammer);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Wood Oil},Floor{RandomNumber{0,2}},0},Item:Wood Oil);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Brass Knuckle},Floor{RandomNumber{0,2}},0},Item:Brass Knuckle);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Fortune Cookie},Floor{RandomNumber{0,2}},0},Item:Fortune Cookie);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Hand Mirror},Floor{RandomNumber{0,2}},0},Item:Hand Mirror);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Pearl},Floor{RandomNumber{0,2}},0},Item:Pearl);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Spikey Shield},Floor{RandomNumber{0,2}},0},Item:Spikey Shield);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{AntiGravityClawActivator},Floor{RandomNumber{0,2}},0},Item:AntiGravityClawActivator);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{HarpoonClawActivator},Floor{RandomNumber{0,2}},0},Item:HarpoonClawActivator);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{MagnetClawActivator},Floor{RandomNumber{0,2}},0},Item:MagnetClawActivator);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{TentacleClawActivator},Floor{RandomNumber{0,2}},0},Item:TentacleClawActivator);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Creditcard},Floor{RandomNumber{0,2}},0},Item:Creditcard);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Gold Dagger},Floor{RandomNumber{0,2}},0},Item:Gold Dagger);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Hand of Midas},Floor{RandomNumber{0,2}},0},Item:Hand of Midas);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Piggy Bank},Floor{RandomNumber{0,2}},0},Item:Piggy Bank);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Eyepatch},Floor{RandomNumber{0,2}},0},Item:Eyepatch);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Sickle},Floor{RandomNumber{0,2}},0},Item:Sickle);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Battle Axe},Floor{RandomNumber{0,2}},0},Item:Battle Axe);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Dagger},Floor{RandomNumber{0,2}},0},Item:Dagger);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Dark Sword},Floor{RandomNumber{0,2}},0},Item:Dark Sword);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Double Bladed Sword},Floor{RandomNumber{0,2}},0},Item:Double Bladed Sword);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Garden Shears},Floor{RandomNumber{0,2}},0},Item:Garden Shears);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{GreatSword},Floor{RandomNumber{0,2}},0},Item:GreatSword);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Lucky Stick},Floor{RandomNumber{0,2}},0},Item:Lucky Stick);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Marble},Floor{RandomNumber{0,2}},0},Item:Marble);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Plastic Knife},Floor{RandomNumber{0,2}},0},Item:Plastic Knife);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Recycling Bin},Floor{RandomNumber{0,2}},0},Item:Recycling Bin);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Small Sword},Floor{RandomNumber{0,2}},0},Item:Small Sword);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Syringe},Floor{RandomNumber{0,2}},0},Item:Syringe);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Ticking Bomb},Floor{RandomNumber{0,2}},0},Item:Ticking Bomb);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Whetstone},Floor{RandomNumber{0,2}},0},Item:Whetstone);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Ice Pack},Floor{RandomNumber{0,2}},0},Item:Ice Pack);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Icicle},Floor{RandomNumber{0,2}},0},Item:Icicle);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Liquid Nitrogen Flask},Floor{RandomNumber{0,2}},0},Item:Liquid Nitrogen Flask);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Popsicle},Floor{RandomNumber{0,2}},0},Item:Popsicle);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Snow Globe},Floor{RandomNumber{0,2}},0},Item:Snow Globe);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Snow Shovel},Floor{RandomNumber{0,2}},0},Item:Snow Shovel);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Snowball},Floor{RandomNumber{0,2}},0},Item:Snowball);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Winter Gloves},Floor{RandomNumber{0,2}},0},Item:Winter Gloves);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Healing Flask},Floor{RandomNumber{0,2}},0},Item:Healing Flask);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Magic Wand},Floor{RandomNumber{0,2}},0},Item:Magic Wand);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Teddy},Floor{RandomNumber{0,2}},0},Item:Teddy);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Thermometer},Floor{RandomNumber{0,2}},0},Item:Thermometer);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Catbox},Floor{RandomNumber{0,2}},0},Item:Catbox);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Antidote},Floor{RandomNumber{0,2}},0},Item:Antidote);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Holy Water},Floor{RandomNumber{0,2}},0},Item:Holy Water);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Leech},Floor{RandomNumber{0,2}},0},Item:Leech);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Poison Dagger},Floor{RandomNumber{0,2}},0},Item:Poison Dagger);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Poison Flask},Floor{RandomNumber{0,2}},0},Item:Poison Flask);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Poison Grenade},Floor{RandomNumber{0,2}},0},Item:Poison Grenade);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Serrated Blade},Floor{RandomNumber{0,2}},0},Item:Serrated Blade);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Shuriken},Floor{RandomNumber{0,2}},0},Item:Shuriken);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Smog Bomb},Floor{RandomNumber{0,2}},0},Item:Smog Bomb);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Toxic Bulwark},Floor{RandomNumber{0,2}},0},Item:Toxic Bulwark);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Cactus},Floor{RandomNumber{0,2}},0},Item:Cactus);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Stressball Spikes},Floor{RandomNumber{0,2}},0},Item:Stressball Spikes);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Stressball},Floor{RandomNumber{0,2}},0},Item:Stressball);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Glass Cleaner},Floor{RandomNumber{0,2}},0},Item:Glass Cleaner);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Heat Gun},Floor{RandomNumber{0,2}},0},Item:Heat Gun);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Honey Ball},Floor{RandomNumber{0,2}},0},Item:Honey Ball);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Magnet},Floor{RandomNumber{0,2}},0},Item:Magnet);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Toxicarl's Flask},Floor{RandomNumber{0,2}},0},Item:Toxicarl's Flask);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Amulet of Strength},Floor{RandomNumber{0,2}},0},Item:Amulet of Strength);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Energy Drink},Floor{RandomNumber{0,2}},0},Item:Energy Drink);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Paperclip},Floor{RandomNumber{0,2}},0},Item:Paperclip);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Ring of Strength},Floor{RandomNumber{0,2}},0},Item:Ring of Strength);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Strength Potion},Floor{RandomNumber{0,2}},0},Item:Strength Potion);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Wooden Bracelet},Floor{RandomNumber{0,2}},0},Item:Wooden Bracelet);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Battery},Floor{RandomNumber{0,2}},0},Item:Battery);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Chocolate Bathbomb},Floor{RandomNumber{0,2}},0},Item:Chocolate Bathbomb);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Frosty Bathbomb},Floor{RandomNumber{0,2}},0},Item:Frosty Bathbomb);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Lava Bathbomb},Floor{RandomNumber{0,2}},0},Item:Lava Bathbomb);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Piranha},Floor{RandomNumber{0,2}},0},Item:Piranha);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Poison Bathbomb},Floor{RandomNumber{0,2}},0},Item:Poison Bathbomb);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Sponge},Floor{RandomNumber{0,2}},0},Item:Sponge);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{TreasureChest},Floor{RandomNumber{0,2}},0},Item:TreasureChest);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Water Balloon},Floor{RandomNumber{0,2}},0},Item:Water Balloon);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Water Bottle},Floor{RandomNumber{0,2}},0},Item:Water Bottle);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Waterpistol},Floor{RandomNumber{0,2}},0},Item:Waterpistol);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Big Honeyball},Floor{RandomNumber{0,2}},0},Item:Big Honeyball);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Glass Shard},Floor{RandomNumber{0,2}},0},Item:Glass Shard);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{HauntedSpike},Floor{RandomNumber{0,2}},0},Item:HauntedSpike);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Meli-Bomb},Floor{RandomNumber{0,2}},0},Item:Meli-Bomb);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{PoisonSpore},Floor{RandomNumber{0,2}},0},Item:PoisonSpore);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Spike},Floor{RandomNumber{0,2}},0},Item:Spike);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Minifridge},Floor{RandomNumber{0,2}},0},Item:Minifridge);Target:Self;Trigger:OnAbilityUse
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Fan},Floor{RandomNumber{0,2}},0},Item:Fan);Target:Self;Trigger:OnAbilityUse

@@ -1,0 +1,1 @@
+Ability:IncreaseStrengthSetting(StrengthAmount:LastIncomingAbilityStats{CoinsAdded});Target:Self;Trigger:OnCoinsAdded

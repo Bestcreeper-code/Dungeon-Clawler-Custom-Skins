@@ -1,0 +1,59 @@
+<link="st:Identifier">Display Text</link>     // Stat
+<link="se:Identifier">Display Text</link>     // Status Effect
+<link="ie:Identifier">Display Text</link>     // Item Effect
+<link="lq:Identifier">Display Text</link>     // Liquid
+<link="cr:Identifier">Display Text</link>     // Currency
+<link="mt:Identifier">Display Text</link>     // Item Material
+<link="it:Identifier">Display Text</link>     // Pickup Item
+<link="pt:Identifier">Display Text</link>     // Pet
+
+<link="st:Health">Health</link>
+<link="st:Block">Block</link>
+<link="st:Strength">Strength</link>
+<link="st:Crit">Critical Hit</link>
+
+<link="se:Poison">Poison</link>
+<link="se:Frost">Frost</link>
+<link="se:Dodge">Dodge</link>
+<link="se:Mirror">Reflect</link>
+<link="se:Spikes">Spikes</link>
+<link="se:Bomb">Bomb</link>
+
+<link="se:BodyArmorBuff"></link>
+<link="se:Bomb"></link>
+<link="se:Charge"></link>
+<link="se:Cleanse"></link>
+<link="se:Coins"></link>
+<link="se:Dodge"></link>
+<link="se:Eagle Eye"></link>
+<link="se:Frost"></link>
+<link="se:Gauntlet"></link>
+<link="se:HolyShield"></link>
+<link="se:IcyAttacks"></link>
+<link="se:Inked"></link>
+<link="se:Mirror"></link>
+<link="se:PersistentArmor"></link>
+<link="se:Poison"></link>
+<link="se:PoisonGas"></link>
+<link="se:PoisonousAttacks"></link>
+<link="se:Soaked"></link>
+<link="se:Spikes"></link>
+<link="se:Tantrum"></link>
+<link="se:VampireFangs"></link>
+<link="se:Poison"></link>
+<link="se:Frost"></link>
+<link="se:Dodge"></link>
+<link="se:Mirror"></link>
+<link="se:Spikes"></link>
+
+<link="mt:Wood">Wood</link>
+<link="mt:Metal">Metal</link>
+<link="mt:Plastic">Plastic</link>
+<link="mt:Ice">Ice</link> 
+
+<link="it:Stressball Spikes">Stressball Spikes</link>
+<link="it:Marble">Marble</link>
+<link="it:Fluff">Fluff</link>
+<link="it:Coin Fluff">Gold Coin</link>
+
+<link="pt:CreamPuff">Cream Puff</link>

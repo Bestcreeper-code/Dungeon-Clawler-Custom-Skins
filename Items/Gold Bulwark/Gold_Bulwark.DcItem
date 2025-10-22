@@ -1,0 +1,13 @@
+Values:[BaseBlock:3;BlockAmount:1;CoinAmount:5]
+UpgradeValues:[BaseBlock:6;BlockAmount:2;CoinAmount:5]
+Name:Gold Bulwark
+Description:Increases Block by {[BaseBlock]} <link="st:Block">Block</link> plus {[BlockAmount]} <link="st:Block">Block</link> for each {[CoinAmount]} <link="cr:Coins">Coins</link> you own.
+Rarity:Epic
+Material:Metal
+Sizemult:0.3
+Tags:[Metal;Block;Coins]
+Ethereal:false
+Cooldown:2
+DontDrop:false
+
+Ability:IncreaseBlockSetting(BlockAmount:Add{BaseValue{BaseBlock},Divide{Multiply{CurrencyAmount{},BaseValue{BlockAmount}},BaseValue{CoinAmount}}},Multiply:false);Target:Self

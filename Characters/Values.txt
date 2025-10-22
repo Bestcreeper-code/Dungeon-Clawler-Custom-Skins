@@ -1,0 +1,98 @@
+-------------Value Types-----------
+Add{Value firstNb, Value secondNb}
+
+Clamp{Value  ValueToClamp, Value  Min, Value  Max}
+
+ClawMachineStat{string #Claw_Machine_Stat}
+
+CollectedItemCount{string itemName}
+
+CombatantStat{string #Combatant_Stat}
+
+CountOfItemsInDeck{}
+
+CurrencyAmount{}
+
+Divide{Value firstNb, Value secondNb}
+
+EnemyCount{string StatusEffect_Name, bool OnlyCountEnemiesWithEffect}
+
+FighterBaseValue{string ValueName}
+
+Floor{Value  Value}
+
+IfElse{string #Comparison_Types, Value  Value, Value  CompareValue, Value  ValueWhenTrue, Value  ValueWhenFAlse}
+
+ItemBaseValue{string ValueName}
+
+Item{string ItemName}
+ 
+LastPickedItem{}
+
+ItemCount{string ItemName}
+
+LastIncomingAbilityStats{string #Last_Incoming_Ability_Stats}
+
+Multiply{Value firstNb, Value secondNb}
+
+Number{float Value}
+
+PlayerStat{string #Player_Stats}
+
+RandomNumber{Value  Max, Value  Min}
+
+StatusEffectCount{string StatusEffect_Name, bool DifferentTarget}
+
+Subtract{Value firstNb, Value secondNb}
+
+
+____________________________________________________________________________________
+
+-----#Claw_Machine_Stat:-----
+NumberOfItemsThisTurn  
+WaterLevel  
+CollectedFluffThisTurn  
+----
+
+-----#Combatant_Stats:-----
+Block  
+Strength  
+MaxHealth  
+CurrentHealth  
+----
+
+-----#Player_Stats:-----
+MaxRetainedBlock  
+MaxRetainedDodge  
+CriticalHitChance  
+CriticalHitDamage  
+PetDamage  
+----
+
+-----#Last_Incoming_Ability_Stats:-----
+TotalIncomingDamage  
+HealthDamage  
+BlockedDamage  
+IncomingHeal  
+BlockIncrease  
+StrengthIncrease  
+CriticalHealthDamage  
+TotalOutgoingDamage  
+OutgoingCriticalHealthDamage  
+OutgoingHealthDamage  
+OutgoingHeal  
+TotalDodgedDamage  
+CoinsAdded  
+CoinsRemoved  
+CoinsCollected  
+----
+
+-----#Comparison_Types:-----
+
+LessThan  
+GreaterThan  
+EqualTo  
+NotEqualTo  
+LessThanOrEqualTo  
+GreaterThanOrEqualTo  
+----

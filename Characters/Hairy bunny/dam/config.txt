@@ -1,0 +1,4 @@
+Name: Mirror
+Description: Hairy Bunny uses these to make enemies get hurt!
+SizeMult: 1
+BaseHp:1

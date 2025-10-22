@@ -1,0 +1,110 @@
+Value = CalculatedValue
+
+CalculatedValue are dynamic values that are recalculated each time an ability using them is called
+
+values that have a # before their name mean that that value is one of the lines in the #list at the end of the file 
+
+ex for IfElse{#Comparison_Types, Value  Value, Value  CompareValue, Value  ValueWhenTrue, Value  ValueWhenFAlse}:
+
+IfElse{GreaterThan, CountOfItemsInDeck{}, 20, 100, Divide{CurrencyAmount{}, 30}}
+
+gives 100 if you have more than 20 items and gives your amount of gold/30 if you have 20 items or less
+
+-------------CalculatedValue Types-----------
+Add{Value firstNb, Value secondNb}
+
+Clamp{Value  ValueToClamp, Value  Min, Value  Max}
+
+ClawMachineStat{#Claw_Machine_Stat}
+
+CollectedItemCount{string itemName}
+
+CombatantStat{#Combatant_Stat}
+
+CountOfItemsInDeck{}
+
+CurrencyAmount{}
+
+Divide{Value Dividend, Value divisor}
+
+EnemyCount{string StatusEffect_Name, bool OnlyCountEnemiesWithEffect}
+
+FighterBaseValue{string ValueName}
+
+Floor{Value  floor_Value}
+
+IfElse{#Comparison_Types, Value  Value, Value  CompareValue, Value  ValueWhenTrue, Value  ValueWhenFAlse}
+
+ItemBaseValue{string ValueName}
+
+Item{string ItemName}
+ 
+LastPickedItem{}
+
+ItemCount{string ItemName}
+
+LastIncomingAbilityStats{#Last_Incoming_Ability_Stats}
+
+Multiply{Value firstNb, Value secondNb}
+
+Number{float Value}
+
+PlayerStat{string #Player_Stats}
+
+RandomNumber{Value  Max, Value  Min}
+
+StatusEffectCount{string StatusEffect_Name, bool DifferentTarget}
+
+Subtract{Value firstNb, Value secondNb}
+
+
+____________________________________________________________________________________
+
+-----#Claw_Machine_Stat:-----
+NumberOfItemsThisTurn  
+WaterLevel  
+CollectedFluffThisTurn  
+----
+
+-----#Combatant_Stats:-----
+Block  
+Strength  
+MaxHealth  
+CurrentHealth  
+----
+
+-----#Player_Stats:-----
+MaxRetainedBlock  
+MaxRetainedDodge  
+CriticalHitChance  
+CriticalHitDamage  
+PetDamage  
+----
+
+-----#Last_Incoming_Ability_Stats:-----
+TotalIncomingDamage  
+HealthDamage  
+BlockedDamage  
+IncomingHeal  
+BlockIncrease  
+StrengthIncrease  
+CriticalHealthDamage  
+TotalOutgoingDamage  
+OutgoingCriticalHealthDamage  
+OutgoingHealthDamage  
+OutgoingHeal  
+TotalDodgedDamage  
+CoinsAdded  
+CoinsRemoved  
+CoinsCollected  
+----
+
+-----#Comparison_Types:-----
+
+LessThan  
+GreaterThan  
+EqualTo  
+NotEqualTo  
+LessThanOrEqualTo  
+GreaterThanOrEqualTo  
+----

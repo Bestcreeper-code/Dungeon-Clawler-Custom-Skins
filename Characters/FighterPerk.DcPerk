@@ -1,0 +1,5 @@
+Values:[ItemsAmount:1]
+Ability:ModifyBaseValue(ChangeAmount:Subtract{BaseValue{ItemsAmount},1},BaseValue,Overwrite,);Target:Self;Trigger:OnPlayerConsumedItem
+Ability:ModifyBaseValue(ChangeAmount:Add{BaseValue{ItemsAmount},1},BaseValue,Overwrite,);Target:Self;Trigger:OnItemAddedToClawMachine
+ApplyStatusEffectSetting(AddAmount:IfElse{LessThan,RandomNumber{Number{0},Number{1}},Multiply{BaseValue{ItemsAmount},1},Number{1},Number{0}}, Multiply:false,StatusEffect:Mirror, ReplaceExistingStacks:false, Unavoidable:true);Trigger:OnTurnEnd;Target:Self
+

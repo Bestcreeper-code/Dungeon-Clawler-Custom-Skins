@@ -1,0 +1,45 @@
+Name:Pet Sync
+Description:Synchronizes Status Effects from the Player to its pet, end of the turn.<link="se:BodyArmorBuff"></link><link="se:Bomb"></link><link="se:Charge"></link><link="se:Dodge"></link><link="se:Eagle Eye"></link><link="se:Frost"></link><link="se:Gauntlet"></link><link="se:HolyShield"></link><link="se:IcyAttacks"></link><link="se:Inked"></link><link="se:Mirror"></link><link="se:PersistentArmor"></link><link="se:Poison"></link><link="se:PoisonGas"></link><link="se:PoisonousAttacks"></link><link="se:Soaked"></link><link="se:Spikes"></link><link="se:Tantrum"></link><link="se:VampireFangs"></link><link="se:Poison"></link><link="se:Frost"></link><link="se:Dodge"></link><link="se:Mirror"></link><link="se:Spikes"></link>
+Rarity:Epic
+Stackamount:1
+Sizemult:0.35
+Tags:[Pets;Buffs]
+Values:[BodyArmorBuff:0;Bomb:0;Charge:0;Dodge:0;Eagle:0;Frost:0;Gauntlet:0;HolyShield:0;IcyAttacks:0;Inked:0;Mirror:0;PersistentArmor:0;Poison:0;PoisonGas:0;PoisonousAttacks:0;Soaked:0;Spikes:0;Tantrum:0;VampireFangs:0]
+Ability:ModifyBaseValue(ChangeAmount:StatusEffectCount{BodyArmorBuff,True},BaseValue:BodyArmorBuff,Overwrite:True);Target:Self;Trigger:OnAbilityUse
+Ability:ModifyBaseValue(ChangeAmount:StatusEffectCount{Bomb,True},BaseValue:Bomb,Overwrite:True);Target:Self;Trigger:OnAbilityUse
+Ability:ModifyBaseValue(ChangeAmount:StatusEffectCount{Charge,True},BaseValue:Charge,Overwrite:True);Target:Self;Trigger:OnAbilityUse
+Ability:ModifyBaseValue(ChangeAmount:StatusEffectCount{Dodge,True},BaseValue:Dodge,Overwrite:True);Target:Self;Trigger:OnAbilityUse
+Ability:ModifyBaseValue(ChangeAmount:StatusEffectCount{Eagle Eye,True},BaseValue:Eagle,Overwrite:True);Target:Self;Trigger:OnAbilityUse
+Ability:ModifyBaseValue(ChangeAmount:StatusEffectCount{Frost,True},BaseValue:Frost,Overwrite:True);Target:Self;Trigger:OnAbilityUse
+Ability:ModifyBaseValue(ChangeAmount:StatusEffectCount{Gauntlet,True},BaseValue:Gauntlet,Overwrite:True);Target:Self;Trigger:OnAbilityUse
+Ability:ModifyBaseValue(ChangeAmount:StatusEffectCount{HolyShield,True},BaseValue:HolyShield,Overwrite:True);Target:Self;Trigger:OnAbilityUse
+Ability:ModifyBaseValue(ChangeAmount:StatusEffectCount{IcyAttacks,True},BaseValue:IcyAttacks,Overwrite:True);Target:Self;Trigger:OnAbilityUse
+Ability:ModifyBaseValue(ChangeAmount:StatusEffectCount{Inked,True},BaseValue:Inked,Overwrite:True);Target:Self;Trigger:OnAbilityUse
+Ability:ModifyBaseValue(ChangeAmount:StatusEffectCount{Mirror,True},BaseValue:Mirror,Overwrite:True);Target:Self;Trigger:OnAbilityUse
+Ability:ModifyBaseValue(ChangeAmount:StatusEffectCount{PersistentArmor,True},BaseValue:PersistentArmor,Overwrite:True);Target:Self;Trigger:OnAbilityUse
+Ability:ModifyBaseValue(ChangeAmount:StatusEffectCount{Poison,True},BaseValue:Poison,Overwrite:True);Target:Self;Trigger:OnAbilityUse
+Ability:ModifyBaseValue(ChangeAmount:StatusEffectCount{PoisonGas,True},BaseValue:PoisonGas,Overwrite:True);Target:Self;Trigger:OnAbilityUse
+Ability:ModifyBaseValue(ChangeAmount:StatusEffectCount{PoisonousAttacks,True},BaseValue:PoisonousAttacks,Overwrite:True);Target:Self;Trigger:OnAbilityUse
+Ability:ModifyBaseValue(ChangeAmount:StatusEffectCount{Soaked,True},BaseValue:Soaked,Overwrite:True);Target:Self;Trigger:OnAbilityUse
+Ability:ModifyBaseValue(ChangeAmount:StatusEffectCount{Spikes,True},BaseValue:Spikes,Overwrite:True);Target:Self;Trigger:OnAbilityUse
+Ability:ModifyBaseValue(ChangeAmount:StatusEffectCount{Tantrum,True},BaseValue:Tantrum,Overwrite:True);Target:Self;Trigger:OnAbilityUse
+Ability:ModifyBaseValue(ChangeAmount:StatusEffectCount{VampireFangs,True},BaseValue:VampireFangs,Overwrite:True);Target:Self;Trigger:OnAbilityUse
+Ability:ApplyStatusEffectSetting(AddAmount:BaseValue{BodyArmorBuff},StatusEffect:BodyArmorBuff,ReplaceExistingStacks:true);Target:AllTargets;TargetFriends:true;ExcludeSelf:true;Trigger:OnTurnEnd
+Ability:ApplyStatusEffectSetting(AddAmount:BaseValue{Bomb},StatusEffect:Bomb,ReplaceExistingStacks:true);Target:AllTargets;TargetFriends:true;ExcludeSelf:true;Trigger:OnTurnEnd
+Ability:ApplyStatusEffectSetting(AddAmount:BaseValue{Charge},StatusEffect:Charge,ReplaceExistingStacks:true);Target:AllTargets;TargetFriends:true;ExcludeSelf:true;Trigger:OnTurnEnd
+Ability:ApplyStatusEffectSetting(AddAmount:BaseValue{Dodge},StatusEffect:Dodge,ReplaceExistingStacks:true);Target:AllTargets;TargetFriends:true;ExcludeSelf:true;Trigger:OnTurnEnd
+Ability:ApplyStatusEffectSetting(AddAmount:BaseValue{Eagle},StatusEffect:Eagle Eye,ReplaceExistingStacks:true);Target:AllTargets;TargetFriends:true;ExcludeSelf:true;Trigger:OnTurnEnd
+Ability:ApplyStatusEffectSetting(AddAmount:BaseValue{Frost},StatusEffect:Frost,ReplaceExistingStacks:true);Target:AllTargets;TargetFriends:true;ExcludeSelf:true;Trigger:OnTurnEnd
+Ability:ApplyStatusEffectSetting(AddAmount:BaseValue{Gauntlet},StatusEffect:Gauntlet,ReplaceExistingStacks:true);Target:AllTargets;TargetFriends:true;ExcludeSelf:true;Trigger:OnTurnEnd
+Ability:ApplyStatusEffectSetting(AddAmount:BaseValue{HolyShield},StatusEffect:HolyShield,ReplaceExistingStacks:true);Target:AllTargets;TargetFriends:true;ExcludeSelf:true;Trigger:OnTurnEnd
+Ability:ApplyStatusEffectSetting(AddAmount:BaseValue{IcyAttacks},StatusEffect:IcyAttacks,ReplaceExistingStacks:true);Target:AllTargets;TargetFriends:true;ExcludeSelf:true;Trigger:OnTurnEnd
+Ability:ApplyStatusEffectSetting(AddAmount:BaseValue{Inked},StatusEffect:Inked,ReplaceExistingStacks:true);Target:AllTargets;TargetFriends:true;ExcludeSelf:true;Trigger:OnTurnEnd
+Ability:ApplyStatusEffectSetting(AddAmount:BaseValue{Mirror},StatusEffect:Mirror,ReplaceExistingStacks:true);Target:AllTargets;TargetFriends:true;ExcludeSelf:true;Trigger:OnTurnEnd
+Ability:ApplyStatusEffectSetting(AddAmount:BaseValue{PersistentArmor},StatusEffect:PersistentArmor,ReplaceExistingStacks:true);Target:AllTargets;TargetFriends:true;ExcludeSelf:true;Trigger:OnTurnEnd
+Ability:ApplyStatusEffectSetting(AddAmount:BaseValue{Poison},StatusEffect:Poison,ReplaceExistingStacks:true);Target:AllTargets;TargetFriends:true;ExcludeSelf:true;Trigger:OnTurnEnd
+Ability:ApplyStatusEffectSetting(AddAmount:BaseValue{PoisonGas},StatusEffect:PoisonGas,ReplaceExistingStacks:true);Target:AllTargets;TargetFriends:true;ExcludeSelf:true;Trigger:OnTurnEnd
+Ability:ApplyStatusEffectSetting(AddAmount:BaseValue{PoisonousAttacks},StatusEffect:PoisonousAttacks,ReplaceExistingStacks:true);Target:AllTargets;TargetFriends:true;ExcludeSelf:true;Trigger:OnTurnEnd
+Ability:ApplyStatusEffectSetting(AddAmount:BaseValue{Soaked},StatusEffect:Soaked,ReplaceExistingStacks:true);Target:AllTargets;TargetFriends:true;ExcludeSelf:true;Trigger:OnTurnEnd
+Ability:ApplyStatusEffectSetting(AddAmount:BaseValue{Spikes},StatusEffect:Spikes,ReplaceExistingStacks:true);Target:AllTargets;TargetFriends:true;ExcludeSelf:true;Trigger:OnTurnEnd
+Ability:ApplyStatusEffectSetting(AddAmount:BaseValue{Tantrum},StatusEffect:Tantrum,ReplaceExistingStacks:true);Target:AllTargets;TargetFriends:true;ExcludeSelf:true;Trigger:OnTurnEnd
+Ability:ApplyStatusEffectSetting(AddAmount:BaseValue{VampireFangs},StatusEffect:VampireFangs,ReplaceExistingStacks:true);Target:AllTargets;TargetFriends:true;ExcludeSelf:true;Trigger:OnTurnEnd

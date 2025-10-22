@@ -1,0 +1,8 @@
+Name:Spiked Trap
+Description:Gain <link="se:Spikes">Spikes</link> when losing <link="st:Health">Health</link> 1:1, Lose <link="se:Spikes">Spikes</link> when gaining <link="st:Health">Health</link> 1:1
+Rarity:Epic
+Stackamount:1
+Sizemult:0.35
+Tags:[Healing;Selfdamage]
+Ability:ApplyStatusEffectSetting(AddAmount:LastIncomingAbilityStats{HealthDamage},StatusEffect:Spikes,ReplaceExistingStacks:False,Unavoidable:True);Target:Self;Trigger:OnReceivingHealthDamage
+Ability:ApplyStatusEffectSetting(AddAmount:Multiply{LastIncomingAbilityStats{IncomingHeal},-1},StatusEffect:Spikes,ReplaceExistingStacks:False,Unavoidable:True);Target:Self;Trigger:OnGettingHealed

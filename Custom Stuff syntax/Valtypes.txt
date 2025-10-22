@@ -1,0 +1,16 @@
+(basic programming types but whatev)
+float => floating point value(ex: 1.45)
+
+
+StatusEffectType => one of the lines in StatusEffects.txt
+
+ItemType => one of the lines in Items.txt
+
+LiquidSetting => one of the lines in Liquids.txt
+
+ClawType => one of the lines in Claws.txt
+
+
+ClawType => one of the lines in Claws.txt
+
+CalculatedValue => special syntax found in CalculatedValues.txt

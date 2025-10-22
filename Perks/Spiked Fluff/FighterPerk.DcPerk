@@ -1,0 +1,6 @@
+Name:Spiked Fluff
+Description:Gain <link="se:Spikes">Spikes</link> for each <link="it:Fluff">Fluff</link> picked up.
+Rarity:Rare
+Tags:[Fluff;Spikes]
+Sizemult:0.35
+Ability:ApplyStatusEffectSetting(AddAmount:Number{1},StatusEffect:Spikes,ReplaceExistingStacks:False,Unavoidable:True);Target:Self;Trigger:OnFluffCollected

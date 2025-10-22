@@ -56,6 +56,7 @@ MrBoneyLuckyPaw
 MrBoneyPerk
 AstrobunPerk
 AstronbunLuckyPaw
+
 Big Shield
 Body Armor
 Forest Spirit
@@ -108,6 +109,7 @@ Spike
 Ice Pack
 Icicle
 Liquid Nitrogen Flask
+Minifridge
 Popsicle
 Snow Globe
 Snow Shovel
@@ -131,6 +133,7 @@ Toxic Bulwark
 Cactus
 Stressball Spikes
 Stressball
+Fan
 Glass Cleaner
 Heat Gun
 Honey Ball
@@ -160,6 +163,7 @@ Waterpistol_Ink
 Waterpistol_Lava
 Waterpistol_Poison
 Waterpistol_Water
+
 EmptyPawItem
 Burning Fluff
 Coin Fluff
@@ -168,6 +172,7 @@ Ice Fluff
 Ink Fluff
 Marshmallow Fluff
 Poison Fluff
+
 1_DealDamage_Card
 3_Block_Card
 4_Strength_Card

@@ -1,0 +1,6 @@
+Name: Fertilizer
+Description: Turns <link="it:Fluff">Fluff</link> in to <link="it:Tumble Fluff">Tumble Fluff</link>, applying 1 <link="se:Spikes">Spike</link> to the player.
+HexColor:#2A661D55
+Effect:ReplaceItems
+TargetItems:[Fluff]
+ItemReplacement:Tumble_Fluff

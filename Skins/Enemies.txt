@@ -1,0 +1,44 @@
+FireSlime_FastAttacks
+GreenSlime_SimpleAttack
+IceSlime_Block
+Bootshroom
+Bugabooh
+Burple
+Coink
+Fish
+Frog
+Gun Rat
+Hamster
+Healer
+Inky
+Monohive
+PurrPurr
+Sapling
+Snatchling
+Spookolotl
+Bomb
+Bullhog
+Bushling
+Clown_Dodge
+Clown_Mirror
+Coin Grabbler
+Dynamic Duo
+Flying Eye
+Frostbite
+Monkfish
+Rogue
+Slime_Poison
+Tank
+Warrior
+Sapling Boss
+Tankboss
+Frosty
+Goobert
+Lord Squidula
+Melimon
+Mothilda
+Queen Beeatrix
+Walwarth
+Squalo
+EffectTest
+EnemyAsPlayerAnimationTest

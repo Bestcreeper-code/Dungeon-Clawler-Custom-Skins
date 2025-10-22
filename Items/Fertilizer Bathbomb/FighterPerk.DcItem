@@ -1,0 +1,11 @@
+Name:Fertilizer Bathbomb
+Description:<link="mt:Plastic"></link>Turns <link="lq:Water">water</link> in to <link="lq:Fertilizer">Fertilizer</link>. <br>Adds 5 <link="se:Spikes">Spikes</link>
+Rarity:Normal
+Material:Plastic
+Sizemult:0.25
+Tags:[Water;Fluff;Spikes;Plastic]
+Ethereal:false
+Cooldown:0
+DontDrop:false
+Ability:SetWaterLevel(Level:ClawMachineStat{WaterLevel},ChangeLiquid:true,Liquid:Fertilizer);Target:Self
+Ability:ApplyStatusEffectSetting(AddAmount:Number{5},StatusEffect:Spikes);Target:Self

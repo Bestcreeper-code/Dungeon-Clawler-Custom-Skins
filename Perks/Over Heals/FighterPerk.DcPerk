@@ -1,0 +1,7 @@
+Name:Over Heals
+Description:Gain <link="st:Block">Block</link> for all <link="st:Health">Heals</link> you do when at max <link="st:Health">Health</link>.
+Rarity:Epic
+Stackamount:1
+Sizemult:0.35
+Tags:[Block;Healing]
+Ability:IncreaseBlockSetting(BlockAmount:IfElse{EqualTo,CombatantStat{MaxHealth},CombatantStat{CurrentHealth},LastIncomingAbilityStats{IncomingHeal},0});Target:Self;Trigger:OnGettingHealed

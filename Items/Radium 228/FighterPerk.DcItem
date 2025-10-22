@@ -1,0 +1,11 @@
+Name:Mysterious Bathbomb
+Description:<link="mt:Plastic"></link>Turns <link="lq:Water">water</link> in to <link="lq:Mysterious Liquid">Mysterious Liquid</link>.
+Rarity:Normal
+Material:Plastic
+Sizemult:0.25
+Tags:[Water;Fluff;PickupManyItems;Plastic]
+Ethereal:false
+Cooldown:0
+DontDrop:false
+Ability:AddItemSetting(ItemAmount:2,Item:Mysterious_Bathbomb);SpecialTrigger:OnTurnEnd;Target:Fighter
+Fluff:true

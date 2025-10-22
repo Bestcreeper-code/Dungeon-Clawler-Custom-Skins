@@ -1,0 +1,7 @@
+Name:Pet Reflect
+Description:Adds 1 stack of <link="se:Mirror">Reflect</link> to all Pets on the field on the start of the turn.
+Rarity:Epic
+Sizemult:0.35
+Tags:[Pets;Buffs]
+Stackamount:1
+Ability:ApplyStatusEffectSetting(AddAmount:1,StatusEffect:Mirror,ReplaceExistingStacks:true);Target:AllTargets;TargetFriends:true;ExcludeSelf:true;Trigger:AfterTurnStart

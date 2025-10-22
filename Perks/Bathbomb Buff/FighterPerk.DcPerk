@@ -1,0 +1,10 @@
+Name:Bathbomb Buff
+Description:<link="it:Chocolate Bathbomb">Chocolate Bathbomb</link> now heals you for 10 <link="st:Health">Health</link>, <link="it:Frosty Bathbomb">Frosty Bathbomb</link> now applies 5 <link="se:Frost">Frost</link> to all enemies, <link="it:Lava Bathbomb">Lava Bathbomb</link> now does 20 damage to all enemies, <link="it:Poison Bathbomb">Poison Bathbomb</link> now does 10 <link="se:Poison">Poison</link> on all enemies.
+Rarity:Epic
+Stackamount:1
+Sizemult:0.35
+Tags:[Water;Fluff;Healing;Poison;Frost]
+Ability:HealSetting(HealAmount:IfElse{EqualTo,LastPickedItem{},Item{Chocolate Bathbomb},10,0});Target:Self;Trigger:OnAbilityUse
+Ability:ApplyStatusEffectSetting(AddAmount:IfElse{EqualTo,LastPickedItem{},Item{Frosty Bathbomb},5,0},StatusEffect:Frost);Target:Everyone;ExcludeSelf:True;Trigger:OnAbilityUse
+Ability:DamageSetting(DamageAmount:IfElse{EqualTo,LastPickedItem{},Item{Lava Bathbomb},20,0});Target:Everyone;ExcludeSelf:True;Trigger:OnAbilityUse
+Ability:ApplyStatusEffectSetting(AddAmount:IfElse{EqualTo,LastPickedItem{},Item{Poison Bathbomb},10,0},StatusEffect:Poison);Target:Everyone;ExcludeSelf:True;Trigger:OnAbilityUse

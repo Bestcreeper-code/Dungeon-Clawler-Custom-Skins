@@ -1,0 +1,15 @@
+Name:Clint Clobber
+Description:Disables the use of <link="it:Ticking Bomb">Ticking Bomb</link>, Explodes on turn 4, dealing 60 damage for each stack of <link="se:Bomb">Bomb</link><link="se:Bomb1"></link><link="se:Bomb2"></link>, Gains a <link="se:Bomb">Bomb</link> every time it gets hit.
+BaseHealth:20
+TargetedByEnemies:True
+ConsumeItems:true
+ItemsToBeConsumed:[Ticking Bomb]
+Sizemult:1
+Value:[Counter:0;Amount:1]
+Ability:ModifyBaseValue(ChangeAmount:Add{BaseValue{Counter},Number{1}},BaseValue:Counter,Overwrite:True);Target:Self;Trigger:OnTurnStart;AbilityTarget:Pet
+Ability:ModifyBaseValue(ChangeAmount:Add{BaseValue{Amount},Number{1}},BaseValue:Amount,Overwrite:True);Target:Self;Trigger:OnGettingAttacked;AbilityTarget:Pet
+Ability:ApplyStatusEffectSetting(AddAmount:IfElse{EqualTo,BaseValue{Counter},0,BaseValue{Amount},0},StatusEffect:Bomb,ReplaceExistingStacks:false,Unavoidable:true);Target:Self;Trigger:onTurnStart;AbilityTarget:Pet
+Ability:ApplyStatusEffectSetting(AddAmount:IfElse{EqualTo,BaseValue{Counter},1,BaseValue{Amount},0},StatusEffect:Bomb1,ReplaceExistingStacks:false,Unavoidable:true);Target:Self;Trigger:onTurnStart;AbilityTarget:Pet
+Ability:ApplyStatusEffectSetting(AddAmount:IfElse{EqualTo,BaseValue{Counter},2,BaseValue{Amount},0},StatusEffect:Bomb2,ReplaceExistingStacks:false,Unavoidable:true);Target:Self;Trigger:onTurnStart;AbilityTarget:Pet
+Ability:DamageSetting(DamageAmount:IfElse{EqualTo,BaseValue{Counter},3,Multiply{Number{60},BaseBalue{Amount}},0},CanCrit:True,DontTriggerOnAttackEffects:True,IgnoreArmore:False:IgnoreAttackDamageModifiers:False,IgnoreDamageModifiers:False,BaseCritChance:Number{50});Target:AllTargets;Trigger:onTurnStart;AbilityTarget:Pet
+Ability:DamageSetting(DamageAmount:IfElse{EqualTo,BaseValue{Counter},3,Number{100},0},CanCrit:True,DontTriggerOnAttackEffects:True,IgnoreArmore:True:IgnoreAttackDamageModifiers:True,IgnoreDamageModifiers:True,BaseCritChance:Number{100});Target:Self;Trigger:onTurnStart;AbilityTarget:Pet

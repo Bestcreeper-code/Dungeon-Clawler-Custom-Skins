@@ -1,0 +1,5 @@
+Name: Loanly Shark
+Description: Sadly his only way of getting in touch with people is by offering them ridiculous loans in trade for body parts. Not sure if this is scary or just sad.
+PerkDesc: Gains 1 strength for every coin gained, spawn coins when attacking.
+Items: [Dagger:5;Small Shield:5;Big Shield:1;Gold Dagger:1;Creditcard:1]
+SizeMult:1

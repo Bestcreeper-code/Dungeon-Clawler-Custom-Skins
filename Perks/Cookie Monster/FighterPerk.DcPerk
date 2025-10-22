@@ -1,0 +1,7 @@
+Name:Cookie Monster
+Description:Adds a <link="it:Fortune Cookie">Fortune Cookie</link> when you consume a <link="it:Fortune Cookie">Fortune Cookie</link>
+Rarity:Epic
+Stackamount:1
+Sizemult:0.35
+Tags:[Buffs;SelfDamage]
+Ability:AddItemSetting(ItemAmount:IfElse{EqualTo,LastPickedItem{},Item{Fortune Cookie},1,0},Item:Fortune Cookie);Target:Self;Trigger:OnAbilityUse

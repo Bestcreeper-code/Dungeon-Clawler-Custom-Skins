@@ -1,0 +1,42 @@
+
+SpecialEffects:[]
+|
+v
+None: XXXXX
+UseFirstItemTwice: XXXXX
+IncreaseMaxHp: MaxHpIncrease
+DecreaseEnemyHp: EnemyHpDecreasePercentage
+Unused: XXXXX
+IncreaseCritDamage: CritDamageIncrease
+BlockNotReset: XXXXX
+ChangeItemCapacity: CapacityIncrease
+ChangeFluffAmount: FluffIncrease
+UseItemTwiceIfAlone: XXXXX
+MinimumWaterLevel: MinimumWaterLevel
+RetainBlock: RetainedBlockAmount
+IncreaseMagnetism: MagnetismIncrease
+IncreaseCritChance: CritChanceIncrease
+ReducePrices: PriceReduction
+IncreaseDamageMultiplier: DamageMultiplier
+ConsumeCollectedItems: XXXXX
+ClawTimer: ClawTimer
+IncreaseCurrencyGain: CurrencyMultiplier
+IncreasePetDamageMultiplier: PetDamageMultiplier
+IncreaseBlockMultiplier: BlockMultiplier
+IncreaseRewardClawCount: RewardClawIncrease
+IncreasePerkChoiceCount: PerkChoiceCountIncrease
+SpecialRewardRoomClaw: XXXXX
+ReplaceClaw: XXXXX
+RerollCoupon: XXXXX
+ShredderCoupon: XXXXX
+UpgradeCoupon: XXXXX
+AlchemistCoupon: XXXXX
+RandomizedClaws: XXXXX
+AutomaticallyUpgradeItems: UpgradeChance
+RetainDodge: RetainedDodgeAmount
+IncreasePoisonStacks: IncreasePoisonAmount
+IncreaseEtherealStayChance: IncreaseEtherealStayChance
+CriticalHealing: XXXXX
+DuplicateLastItem: XXXXX
+ModifiedGambling: XXXXX
+FrostIncreasesDamage: FrostDamageIncrease

@@ -1,0 +1,11 @@
+Name:Waterpistol Fertilizer
+Description:Attacks All enemies for 5 damage and gives you 15 <link="se:Spikes">Spikes</link>.
+Rarity:Rare
+Material:Plastic
+Sizemult:0.35
+Tags:[Spikes;Water]
+Ethereal:false
+Cooldown:0
+DontDrop:true
+Ability:DamageSetting(DamageAmount:Number{5},CanCrit:true,DontTriggerOnAttackEffects:false,IgnoreArmor:false,IgnoreAttackDamageModifiers:false,IgnoreDamageModifiers:false);Target:AllTargets
+Ability:ApplyStatusEffectSetting(AddAmount:Number{15},StatusEffect:Spikes);Target:Self

@@ -1,0 +1,33 @@
+Name: MyCustomItem                // required, unique identifier
+Overwrite: true                   // does it overwrite any object with the same name(dangerous to set to false)(optional, default = true)
+Description: a blade and a shield together.
+UpgradeDescription: Sharper and deadlier.
+Rarity: Rare                      // rarity(Normal,Rare or Epic)
+Material: Glass                   // #file: [Name Lists/materials.txt]
+Fluff: false                      // if true → doesnt drop in the chute (like fluff)
+Ethereal: false                   // if true → becomes Ethereal
+DontDrop: false                   // if true → item cannot be found when defeating enemies
+Sizemult: 100                     // image sprite scaling value (if lower, the image grow)
+Cooldown: 0                       // turns before item can drop again when picked up(0=>no cooldown)
+Tags: [Block;Strength]            // list of tags(found in [Name Lists/item_tags.txt])
+
+Values: [Damage:15;#Block:1;&#othervalue:9]   
+// base values(kinda like variables) applied when Collected
+
+UpgradeValues: [Damage:20;#Block:10;&#othervalue:15]  
+// what Values get set to on upgrade; enables upgrades
+
+// "#" = persistent value(doesnt reset between fights)
+// "&" = global/fighter-shared value (aka same for each instance of this item) ---not really usable
+
+Ability: <AbilityIdentifier>( <ArgName>:<Value>, <ArgName>:<Value> );              SpecialTrigger: <TriggerType>;              Target: <EPerkAbilityTarget>;              TargetFriends: <true|false>;              ExcludeSelf: <true|false>;              Conditions: [ <Cond1>; <Cond2>; <Cond3> ]
+^
+|
+all in the same line, good luck :(
+
+<AbilityIdentifier> => cf [Abilities.txt]
+
+<TriggerType> => cf [Triggers.txt]
+<EPerkAbilityTarget> => [Targets.txt]
+
+Conditions => cf [Conditions.txt]

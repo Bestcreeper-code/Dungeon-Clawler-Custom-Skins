@@ -1,0 +1,9 @@
+<link="st:Identifier">Display Text</link>     // Stat
+<link="se:Identifier">Display Text</link>     // Status Effect
+<link="ie:Identifier">Display Text</link>     // Item Effect
+<link="lq:Identifier">Display Text</link>     // Liquid
+<link="cr:Identifier">Display Text</link>     // Currency
+<link="mt:Identifier">Display Text</link>     // Item Material
+<link="it:Identifier">Display Text</link>     // Pickup Item
+<link="pt:Identifier">Display Text</link>     // Pet
+

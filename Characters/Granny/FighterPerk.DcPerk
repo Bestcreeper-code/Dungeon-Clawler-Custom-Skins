@@ -1,0 +1,11 @@
+Sizemult:0.35
+Values:[&PlayerHealth:100]
+SpecialEffects:[MinimumWaterLevel:5;IncreaseRewardClawCount:2;SpecialRewardRoomClaw]
+Ability:ReplaceItemAction(ItemCount:Number{20},TargetItem:Fluff,ReplacementItem:Coin_Fluff);Target:Self;Trigger:OnFirstTurnStarted
+Ability:AddItemSetting(ItemAmount:Number{5},Item:Piggy_Bank,Upgraded:True);Target:Self;Trigger:OnFirstTurnStarted
+Ability:AddItemSetting(ItemAmount:Number{5},Item:HealingPotion);Target:Self;Trigger:OnFirstTurnStarted
+Ability:ReplaceClaw(Claw:Tentacle_Claw);Target:Self;Trigger:OnRoomEnter
+Ability:ReplaceClaw(Claw:Tentacle_Claw);Target:Self;Trigger:OnRoomEnter
+Ability:ReplaceClaw(Claw:Tentacle_Claw);Target:Self;Trigger:OnRoomEnter
+Ability:SpawnPetAction(Pet:Clint_Clobber,true);Target:Self;Trigger:OnRoomEnter
+

@@ -1,0 +1,11 @@
+Name:fish
+Description:Spawns a <link="pt:Bomb Buddy">Bomb Buddy</link> that will explode after the time is up!
+Rarity:Rare
+Material:Metal
+Sizemult:0.4
+Tags:[Metal;Pets;Buffs]
+Ethereal:true
+Cooldown:0
+DontDrop:false
+
+Ability:Replace(ItemReplacement:Waterpistol_Fertilizer);Trigger:OnTurnStart;Conditions[Fertilizer];SpecialTrigger:OnTurnStart

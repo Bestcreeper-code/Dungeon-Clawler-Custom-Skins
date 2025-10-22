@@ -1,0 +1,94 @@
+
+Add{CalculatedValue Value1, CalculatedValue Value2}
+
+Clamp{CalculatedValue Value, CalculatedValue Min, CalculatedValue Max}
+
+ClawMachineStat{ClawMachineStat Stat}
+
+CollectedItemCount{EffectTarget Filter}
+
+CombatantStat{Combatant_Stats Stat}
+
+CountOfItemsInDeck{bool IncludeStartingItems, bool OnlyCountDistinctItems}
+
+CurrencyAmount{CurrencyType Currency}
+
+Divide{CalculatedValue Value1, CalculatedValue Value2}
+
+EnemyCount{StatusEffect StatusEffect, bool OnlyCountEnemiesWithEffect}
+
+FighterBaseValue{string ValueName}
+
+Floor{CalculatedValue Value}
+
+IfElse{Comparison_Types ComparisonType, CalculatedValue Value, CalculatedValue CompareValue, CalculatedValue TrueValue, CalculatedValue FalseValue}
+
+ItemBaseValue{string ValueName}
+
+ItemCount{EffectTarget Filter}
+
+LastIncomingAbilityStats{Last_Incoming_Ability_Stats Stat}
+
+Multiply{CalculatedValue Value1, CalculatedValue Value2}
+
+Number{float Value}
+
+PlayerStat{EPlayerStat Stat}
+
+RandomNumber{CalculatedValue Max, CalculatedValue Min}
+
+StatusEffectCount{StatusEffect StatusEffect, bool DifferentTarget}
+
+Subtract{CalculatedValue Value1, CalculatedValue Value2}
+
+
+____________________________________________________________________________________
+
+-----Claw_Machine_Stat:-----
+NumberOfItemsThisTurn  
+WaterLevel  
+CollectedFluffThisTurn  
+----
+
+-----Combatant_Stats:-----
+Block  
+Strength  
+MaxHealth  
+CurrentHealth  
+----
+
+-----Player_Stats:-----
+MaxRetainedBlock  
+MaxRetainedDodge  
+CriticalHitChance  
+CriticalHitDamage  
+PetDamage  
+----
+
+-----Last_Incoming_Ability_Stats:-----
+TotalIncomingDamage  
+HealthDamage  
+BlockedDamage  
+IncomingHeal  
+BlockIncrease  
+StrengthIncrease  
+CriticalHealthDamage  
+TotalOutgoingDamage  
+OutgoingCriticalHealthDamage  
+OutgoingHealthDamage  
+OutgoingHeal  
+TotalDodgedDamage  
+CoinsAdded  
+CoinsRemoved  
+CoinsCollected  
+----
+
+-----Comparison_Types:-----
+
+LessThan  
+GreaterThan  
+EqualTo  
+NotEqualTo  
+LessThanOrEqualTo  
+GreaterThanOrEqualTo  
+----

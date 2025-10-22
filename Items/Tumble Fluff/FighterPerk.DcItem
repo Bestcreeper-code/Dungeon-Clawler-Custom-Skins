@@ -1,0 +1,12 @@
+Name:Tumble Fluff
+Description:Adds 1 stacks of <link="se:Spikes">Spikes</link>.
+Rarity:Normal
+Material:Cloth
+Sizemult:0.3
+Tags:[Fluff;Spikes;Water]
+Ethereal:false
+Cooldown:0
+DontDrop:true
+Fluff:true
+Values:[Spikes:1]
+Ability:ApplyStatusEffectSetting(AddAmount:BaseValue{Spikes},StatusEffect:Spikes);Target:Self

@@ -1,0 +1,5 @@
+Name:Collin Clobber
+Description:Collin and Clint Clobber just enjoy punching things together, so they ventured into the dungeon in search of stronger enemies!
+PerkDesc:Always be with your bro.
+Items:[Small Shield:5;Dagger:5]
+Sizemult:0.8

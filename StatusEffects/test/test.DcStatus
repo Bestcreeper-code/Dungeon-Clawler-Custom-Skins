@@ -1,0 +1,12 @@
+Name: TestEffect
+Description: Increases strength temporarily.
+Type: Buff
+IsPoison: false
+IsFrost: false
+CanBeStacked: true
+CanOnlyBeOneEffect: false
+SpecialEffect: IncreaseCritChance
+TextColor: #FFAA00
+Values: [Strength:10; Duration:5]
+
+Ability:AddCurrency(Amount:1000); Trigger: OnTurnStart; Target: Self; TargetFriends: false; ExcludeSelf: false; AbilityTarget:Fighter; ReduceAmountOnTrigger:true; ReduceAmount:1; RemoveOnTrigger: false

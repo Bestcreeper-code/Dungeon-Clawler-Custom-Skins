@@ -1,0 +1,93 @@
+DamageSetting(
+    float/CalculatedValue DamageAmount,
+    bool CanCrit,
+    bool DontTriggerOnAttackEffects,
+    bool IgnoreArmor,
+    bool IgnoreAttackDamageModifiers,
+    bool IgnoreDamageModifiers,
+    float/CalculatedValue BaseCritChance
+)
+
+HealSetting(
+    float/CalculatedValue HealAmount
+)
+
+IncreaseBlockSetting(
+    float/CalculatedValue BlockAmount,
+    bool Multiply
+)
+
+IncreaseStrengthSetting(
+    float/CalculatedValue StrengthAmount,
+    bool Multiply
+)
+
+ApplyStatusEffectSetting(
+    float/CalculatedValue AddAmount,
+    bool Multiply,
+    string StatusEffect,
+    bool ReplaceExistingStacks,
+    bool Unavoidable
+)
+ApplyItemEffect(
+    string TargetItems,
+    float/CalculatedValue Amount,
+    string Effect
+)
+AddItemSetting(
+    float/CalculatedValue ItemAmount,
+    bool TriggerInMysteryRooms,
+    string Item,
+    bool Upgraded
+)
+
+SetWaterLevel(
+    float/CalculatedValue Level
+)
+
+AddCurrency(
+    float/CalculatedValue Amount,
+    string Currency,
+    bool DontTriggerCoinsAddedEvent
+)
+
+RemoveCurrency(
+    float/CalculatedValue Amount,
+    string Currency
+)
+
+ReplaceClaw(
+    string Claw
+)
+
+AddClawSetting(
+    string Claw
+)
+
+ModifyBaseValue(
+    float/CalculatedValue ChangeAmount,
+    string BaseValue,
+    bool Overwrite,
+    bool Multiply
+)
+
+ReplaceItemAction(
+    float/CalculatedValue ItemCount,
+    string ReplacementItem,
+    string TargetItem,
+    bool Upgraded
+)
+
+SpawnPetAction(
+    string Pet,
+    bool IsPermanent
+)
+
+SpawnEnemyAction(
+    List<string> PossibleEnemies,
+    bool HasStartEffect,
+    float/CalculatedValue BuffAmount,
+    string StartBuff
+)
+
+KillAction()

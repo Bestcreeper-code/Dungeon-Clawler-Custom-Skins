@@ -1,0 +1,13 @@
+Name:Standing Mirror
+Description:Adds 1 stack of <link="se:Mirror">Reflect</link>.
+UpgradeDescription:Adds 2 stack of <link="se:Mirror">Reflect</link>.
+Rarity:Epic
+Material:Glass
+Sizemult:0.35
+Tags:[Buffs,Glass]
+Ethereal:false
+Cooldown:0
+DontDrop:true
+Values:[Reflect:1]
+UpgradeValues:[Reflect:2]
+Ability:ApplyStatusEffectSetting(AddAmount:BaseValue{Reflect},StatusEffect:TestEffect);Target:Self
