@@ -1,5 +1,6 @@
-# 🎮 Dungeon Clawler Custom Skins
-
+# 🎮 Dungeon Clawler Custom ~~Skins~~ stuff
+###### (was only skins before but i added a lot of custom items etc lol)
+---
 A custom mod for **Dungeon Clawler**, built using the BepInEx framework.
 
 ---
