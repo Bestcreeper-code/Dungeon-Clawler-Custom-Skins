@@ -40,7 +40,7 @@ A custom mod for **Dungeon Clawler**, built using the BepInEx framework.
 
 ## 🔧 Configuration
 
-- Check the `/Skins`, `/Items`, and `/Characters` folders for syntax(.md files) and examples.
+- Check the `/Skins`, `/Items`, and `/Characters` folders for syntax(.md files) and examples.(also some docs will come in approximately 6589 years when i stop procrastinating)
 
 ---
 
