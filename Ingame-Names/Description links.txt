@@ -1,0 +1,9 @@
+<link="st:Identifier">Display_Text</link>_____//_Stat
+<link="se:Identifier">Display_Text</link>_____//_Status_Effect
+<link="ie:Identifier">Display_Text</link>_____//_Item_Effect
+<link="lq:Identifier">Display_Text</link>_____//_Liquid
+<link="cr:Identifier">Display_Text</link>_____//_Currency
+<link="mt:Identifier">Display_Text</link>_____//_Item_Material
+<link="it:Identifier">Display_Text</link>_____//_Pickup_Item
+<link="pt:Identifier">Display_Text</link>_____//_Pet
+

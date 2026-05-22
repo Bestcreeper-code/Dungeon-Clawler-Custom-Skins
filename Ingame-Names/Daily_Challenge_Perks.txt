@@ -1,0 +1,8 @@
+ChallengingEnemies
+DeadlyEnemies
+Dodgy_Enemies
+Double_Bosses
+ExorbitantPrices
+Haunted_Mansion
+Poisoned
+Randomizer

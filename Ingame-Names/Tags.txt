@@ -1,0 +1,8 @@
+AntiGravityClaw
+GoldCaneClaw
+HarpoonClaw
+MagnetClaw
+NormalClaw
+PropellerClaw
+SlingshotClaw
+TentacleClaw

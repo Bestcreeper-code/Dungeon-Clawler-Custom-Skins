@@ -1,0 +1,16 @@
+BlockToken
+CoinToken
+CriticalHitToken
+DealDamageToken
+DodgeToken
+FireToken
+FluffToken
+FrostToken
+HealingToken
+LuckyToken
+PetToken
+PoisonToken
+SelfDamageToken
+SpikesToken
+StrengthToken
+WaterToken
