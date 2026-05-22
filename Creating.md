@@ -440,10 +440,10 @@ Trigger:OnTurnStart; AbilityTarget:Fighter; Target:FirstTarget; Ability:DamageSe
 | `ConsumeCollectedItems`      | ItemName | Auto-consume this item when collected |
 | `SpecialRewardRoomClaw`      | ClawName | Use a specific claw in reward rooms   |
 | `ReplaceClaw`                | ClawName | Replace all claws with this type      |
-| `RerollCoupon`               | —     | Gives free reroll coupon                 |
-| `ShredderCoupon`             | —     | Gives free shredder coupon               |
-| `UpgradeCoupon`              | —     | Gives free upgrade coupon                |
-| `AlchemistCoupon`            | —     | Gives free alchemist coupon              |
+| `RerollCoupon`               | -     | Gives free reroll coupon                 |
+| `ShredderCoupon`             | -     | Gives free shredder coupon               |
+| `UpgradeCoupon`              | -     | Gives free upgrade coupon                |
+| `AlchemistCoupon`            | -     | Gives free alchemist coupon              |
 
 ---
 
@@ -661,7 +661,7 @@ Items:[Dagger:2;Sword?Metal?true:1]
 
 ## Notes
 
-- **Spaces in names**: Use either a space or `_` — the mod normalizes them automatically.(though using **_** is most of the time better as most spaces are removed when parsing)
+- **Spaces in names**: Use either a space or `_` - the mod normalizes them automatically.(though using **_** is most of the time better as most spaces are removed when parsing)
 - **Persistent values** (`#` prefix): These values are saved between rooms.
 - **Character-scoped values** (`&` prefix): These are stored on the Character rather than the item.
 - **Overwrite flag**: Defaults to `true`. Set `Overwrite:false` to extend a base-game item or effect instead of replacing it.
